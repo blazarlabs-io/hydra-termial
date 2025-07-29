@@ -2,7 +2,7 @@
 
 This repository is part of the Hydrapay micropayments system. More specifically, this is the code which runs on the BLE terminal or contactless payment terminal.
 
-![RBPI](./assets/rbpiz2w.png)
+![RBPI](./assets/rbpizw2.jpeg)
 
 ## Requirements
 
