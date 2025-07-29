@@ -2,6 +2,8 @@
 
 This repository is part of the Hydrapay micropayments system. More specifically, this is the code which runs on the BLE terminal or contactless payment terminal.
 
+![RBPI](./assets/rbpiz2w.png)
+
 ## Requirements
 
 - Node JS + npm [home](https://nodemon.io/)
