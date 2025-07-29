@@ -12,3 +12,7 @@ This repository is part of the Hydrapay micropayments system. More specifically,
 ## Hardware
 
 Our terminal uses a Raspberry pi Zero 2W micro computer running a custom linux OS. The device is programed using nodejs in order to behave as a BLE Beacon.
+
+## Diagrams1
+
+![Demo 1](assets/demo-1.png)
