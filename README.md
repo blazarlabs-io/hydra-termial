@@ -15,4 +15,4 @@ Our terminal uses a Raspberry pi Zero 2W micro computer running a custom linux O
 
 ## Diagrams1
 
-![Demo 1](assets/demo-1.png)
+![Diagram](assets/demo-2.png)
