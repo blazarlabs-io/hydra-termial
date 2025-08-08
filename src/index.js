@@ -13,7 +13,8 @@ sio.io.on("connection", (socket) => {
   socket.on("requestFunds", (data) => {
     console.log("Funds requested", data);
 
-    const { Char1, Char2, Char3 } = characteristics.setupCharacteristics(data);
+    const { Char1, Char2, Char3, Char4 } =
+      characteristics.setupCharacteristics(data);
 
     bleno.on("stateChange", (state) => {
       console.log("STATE", state);
@@ -29,7 +30,7 @@ sio.io.on("connection", (socket) => {
         bleno.setServices([
           new BlenoPrimaryService({
             uuid: characteristics.SERVICE_UUID,
-            characteristics: [Char1, Char2, Char3],
+            characteristics: [Char1, Char2, Char3, Char4],
           }),
         ]);
       }

@@ -19,7 +19,8 @@ async function payMerchant(
   merchantAddress,
   amountToPay,
   txHash,
-  outputIndex
+  outputIndex,
+  assetUnit
 ) {
   return new Promise(async (resolve, reject) => {
     try {
@@ -29,7 +30,10 @@ async function payMerchant(
           hash: txHash,
           index: outputIndex,
         },
-        amount: amountToPay * 1000000, // The amount of ADA (in Lovelace) to pay the merchant
+        amount: [
+          [assetUnit, parseInt(amountToPay)],
+          ["lovelace", 3000000],
+        ], // The amount of ADA (in Lovelace) to pay the merchant
         signature: "",
       };
       const response = await fetch(`${API_BASE_URL}/pay-merchant`, {
