@@ -128,3 +128,21 @@ Your AP's basic settings and many advanced options may now be modified by RaspAP
 2. On the **Hotspot -> Security** tab, you can change the Pre-shared key (psk) if you wish. Make sure to Save Settings on modifications.
 
 3. Follow [steps 8 to 15](https://docs.raspap.com/features-experimental/ap-sta/#installation) in order to setup the software AP-STA mode (very important).
+
+4. Reboot the device by unplugin and plugin in the power source.
+
+## Expected Behavior
+
+When the device is powered, and not wifi network has been configured or the configured network is not accessible, in other words, when there is no wifi, the Device is discoverable since it behaves as an AP Access Point.
+
+When a merchant connects to the BlazarPay network AP, then they can use chrome or any other browser to access the device's admin dashboar. The following URL will take you directly.
+
+```bash
+http://blazar.local
+```
+
+If that does not work, then find out what the devices IP address and type this on your browser search bar:
+
+```bash
+http://device.ip.address
+```
