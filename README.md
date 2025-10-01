@@ -4,6 +4,8 @@ This repository is part of the Hydrapay micropayments system. More specifically,
 
 [QUICK START](./QUICK_START.md)
 
+[INSTALLATION](./INSTALLATION.md)
+
 [GENERAL DOCUMENTATION](./DOCUMENTATION.md)
 
 [ONBOARDING](./ONBOARDING.md)
